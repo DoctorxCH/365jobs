@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Filament\Resources\FieldVisibility;
+namespace App\Filament\Resources\FieldVisibilities;
 
-use App\Filament\Resources\FieldVisibility\FieldVisibilityResource\Pages\CreateFieldVisibility;
-use App\Filament\Resources\FieldVisibility\FieldVisibilityResource\Pages\EditFieldVisibility;
-use App\Filament\Resources\FieldVisibility\FieldVisibilityResource\Pages\ListFieldVisibilities;
-use App\Filament\Resources\FieldVisibility\FieldVisibilityResource\Schemas\FieldVisibilityForm;
-use App\Filament\Resources\FieldVisibility\FieldVisibilityResource\Tables\FieldVisibilitiesTable;
+use App\Filament\Resources\FieldVisibilities\Pages\CreateFieldVisibility;
+use App\Filament\Resources\FieldVisibilities\Pages\EditFieldVisibility;
+use App\Filament\Resources\FieldVisibilities\Pages\ListFieldVisibilities;
+use App\Filament\Resources\FieldVisibilities\Schemas\FieldVisibilityForm;
+use App\Filament\Resources\FieldVisibilities\Tables\FieldVisibilitiesTable;
 use App\Models\FieldVisibility;
 use Filament\Resources\Resource;
 use Filament\Schemas\Schema;

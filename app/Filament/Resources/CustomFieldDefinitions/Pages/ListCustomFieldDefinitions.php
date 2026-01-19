@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Filament\Resources\CustomFieldDefinition\CustomFieldDefinitionResource\Pages;
+namespace App\Filament\Resources\CustomFieldDefinitions\Pages;
 
-use App\Filament\Resources\CustomFieldDefinition\CustomFieldDefinitionResource;
+use App\Filament\Resources\CustomFieldDefinitions\CustomFieldDefinitionResource;
 use Filament\Actions\CreateAction;
 use Filament\Resources\Pages\ListRecords;
 

@@ -18,6 +18,10 @@ class PurchaseResource extends Resource
 {
     protected static ?string $model = Purchase::class;
 
+    protected static ?string $navigationLabel = 'Purchases';
+    protected static ?string $modelLabel = 'Purchase';
+    protected static ?string $pluralModelLabel = 'Purchases';
+
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 
     protected static ?string $recordTitleAttribute = 'id';

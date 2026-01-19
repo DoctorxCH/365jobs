@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Filament\Resources\FieldVisibility\FieldVisibilityResource\Tables;
+namespace App\Filament\Resources\FieldVisibilities\Tables;
 
 use Filament\Tables\Table;
 use Filament\Tables\Columns\TextColumn;
