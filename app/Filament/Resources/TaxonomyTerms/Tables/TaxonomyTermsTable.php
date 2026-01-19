@@ -46,12 +46,6 @@ class TaxonomyTermsTable
                     return $query->where('active', (bool) $data['value']);
                 }),
             ])
-            ->defaultSort('type')
-                ->actions([
-                    EditAction::make(),
-                ])
-                ->bulkActions([
-                    DeleteBulkAction::make(),
-                ]);
+            ->defaultSort('type');
     }
 }

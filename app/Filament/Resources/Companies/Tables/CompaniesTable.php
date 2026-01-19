@@ -2,9 +2,6 @@
 
 namespace App\Filament\Resources\Companies\Tables;
 
-use Filament\Tables\Actions\BulkActionGroup;
-use Filament\Tables\Actions\DeleteBulkAction;
-use Filament\Tables\Actions\EditAction;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
@@ -37,7 +34,7 @@ class CompaniesTable
                     ->toggleable(),
 
                 TextColumn::make('contact_email')
-                    ->label('Email')
+                    ->label('Email')g
                     ->searchable()
                     ->toggleable(isToggledHiddenByDefault: true),
 
@@ -63,14 +60,6 @@ class CompaniesTable
             ])
             ->filters([
                 //
-            ])
-            ->recordActions([
-                EditAction::make(),
-            ])
-            ->toolbarActions([
-                BulkActionGroup::make([
-                    DeleteBulkAction::make(),
-                ]),
             ]);
     }
 }
