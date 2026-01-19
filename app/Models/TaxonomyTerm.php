@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class TaxonomyTerm extends Model
+{
+    protected $fillable = [
+        'type',
+        'key',
+        'label_en',
+        'label_sk',
+        'active',
+        'sort',
+    ];
+
+    protected $casts = [
+        'active' => 'boolean',
+        'sort' => 'integer',
+    ];
+}
