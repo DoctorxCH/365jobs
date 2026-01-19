@@ -69,12 +69,6 @@ class TaxonomyTermResource extends Resource
                 TextColumn::make('label_en')->label('Label EN')->searchable(),
                 IconColumn::make('active')->boolean(),
                 TextColumn::make('sort')->sortable(),
-            ])
-            ->actions([
-                \Filament\Actions\EditAction::make(),
-            ])
-            ->bulkActions([
-                \Filament\Actions\DeleteBulkAction::make(),
             ]);
     }
 

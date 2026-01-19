@@ -18,6 +18,10 @@ class JobResource extends Resource
 {
     protected static ?string $model = Job::class;
 
+    protected static ?string $navigationLabel = 'Jobs';
+    protected static ?string $modelLabel = 'Job';
+    protected static ?string $pluralModelLabel = 'Jobs';
+
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 
     protected static ?string $recordTitleAttribute = 'title';

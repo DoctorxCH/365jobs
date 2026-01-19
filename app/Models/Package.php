@@ -10,23 +10,18 @@ class Package extends Model
     protected $fillable = [
         'name',
         'slug',
+        'job_credits',
+        'duration_days',
         'price',
         'currency',
-        'job_credits',
-        'team_member_limit',
-        'duration_days',
-        'is_active',
-        'sort',
-        'description',
+        'active',
     ];
 
     protected $casts = [
         'price' => 'decimal:2',
         'job_credits' => 'integer',
-        'team_member_limit' => 'integer',
         'duration_days' => 'integer',
-        'is_active' => 'boolean',
-        'sort' => 'integer',
+        'active' => 'boolean',
     ];
 
     public function purchases(): HasMany

@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Filament\Resources\CustomFieldDefinition;
+namespace App\Filament\Resources\CustomFieldDefinitions;
 
-use App\Filament\Resources\CustomFieldDefinition\CustomFieldDefinitionResource\Pages\CreateCustomFieldDefinition;
-use App\Filament\Resources\CustomFieldDefinition\CustomFieldDefinitionResource\Pages\EditCustomFieldDefinition;
-use App\Filament\Resources\CustomFieldDefinition\CustomFieldDefinitionResource\Pages\ListCustomFieldDefinitions;
-use App\Filament\Resources\CustomFieldDefinition\CustomFieldDefinitionResource\Schemas\CustomFieldDefinitionForm;
-use App\Filament\Resources\CustomFieldDefinition\CustomFieldDefinitionResource\Tables\CustomFieldDefinitionsTable;
+use App\Filament\Resources\CustomFieldDefinitions\Pages\CreateCustomFieldDefinition;
+use App\Filament\Resources\CustomFieldDefinitions\Pages\EditCustomFieldDefinition;
+use App\Filament\Resources\CustomFieldDefinitions\Pages\ListCustomFieldDefinitions;
+use App\Filament\Resources\CustomFieldDefinitions\Schemas\CustomFieldDefinitionForm;
+use App\Filament\Resources\CustomFieldDefinitions\Tables\CustomFieldDefinitionsTable;
 use App\Models\CustomFieldDefinition;
 use Filament\Resources\Resource;
 use Filament\Schemas\Schema;

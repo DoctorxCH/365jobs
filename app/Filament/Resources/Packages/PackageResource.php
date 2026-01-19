@@ -18,6 +18,10 @@ class PackageResource extends Resource
 {
     protected static ?string $model = Package::class;
 
+    protected static ?string $navigationLabel = 'Packages';
+    protected static ?string $modelLabel = 'Package';
+    protected static ?string $pluralModelLabel = 'Packages';
+
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 
     protected static ?string $recordTitleAttribute = 'name';
