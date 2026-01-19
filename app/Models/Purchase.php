@@ -10,23 +10,17 @@ class Purchase extends Model
     protected $fillable = [
         'company_id',
         'package_id',
-        'starts_at',
-        'ends_at',
-        'job_credits_granted',
-        'team_member_limit',
-        'price',
-        'currency',
-        'status',
-        'payment_provider',
+        'job_credits_total',
+        'job_credits_remaining',
+        'provider',
         'provider_ref',
+        'purchased_at',
     ];
 
     protected $casts = [
-        'starts_at' => 'datetime',
-        'ends_at' => 'datetime',
-        'job_credits_granted' => 'integer',
-        'team_member_limit' => 'integer',
-        'price' => 'decimal:2',
+        'job_credits_total' => 'integer',
+        'job_credits_remaining' => 'integer',
+        'purchased_at' => 'datetime',
     ];
 
     public function company(): BelongsTo

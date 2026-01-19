@@ -10,20 +10,33 @@ class Company extends Model
 {
     protected $fillable = [
         'name',
-        'contact_person',
+        'slug',
+        'category',
+        'description',
+        'logo_path',
+        'ico',
+        'dic',
+        'ic_dph',
+        'contact_name',
         'contact_email',
         'contact_phone',
         'contact_address',
         'company_address',
-        'homepage',
+        'website',
         'phone',
         'employees_count',
-        'category_term_id',
-        'description',
+        'country',
+        'city',
+        'verified_at',
+        'active',
+        'team_seat_limit',
     ];
 
     protected $casts = [
         'employees_count' => 'integer',
+        'verified_at' => 'datetime',
+        'active' => 'boolean',
+        'team_seat_limit' => 'integer',
     ];
 
     /* -----------------
