@@ -34,7 +34,7 @@ class CompaniesTable
                     ->toggleable(),
 
                 TextColumn::make('contact_email')
-                    ->label('Email')
+                    ->label('Email')g
                     ->searchable()
                     ->toggleable(isToggledHiddenByDefault: true),
 

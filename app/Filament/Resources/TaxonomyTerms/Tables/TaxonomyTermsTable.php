@@ -4,6 +4,8 @@ namespace App\Filament\Resources\TaxonomyTerms\Tables;
 
 use Filament\Tables;
 use Filament\Tables\Table;
+use Filament\Tables\Actions\DeleteBulkAction;
+use Filament\Tables\Actions\EditAction;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\ToggleColumn;
 use Filament\Tables\Filters\SelectFilter;
