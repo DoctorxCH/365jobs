@@ -71,10 +71,10 @@ class TaxonomyTermResource extends Resource
                 TextColumn::make('sort')->sortable(),
             ])
             ->actions([
-                \Filament\Actions\EditAction::make(),
+                \Filament\Tables\Actions\EditAction::make(),
             ])
             ->bulkActions([
-                \Filament\Actions\DeleteBulkAction::make(),
+                \Filament\Tables\Actions\DeleteBulkAction::make(),
             ]);
     }
 

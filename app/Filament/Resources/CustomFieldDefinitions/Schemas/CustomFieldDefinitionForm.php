@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Filament\Resources\CustomFieldDefinition\CustomFieldDefinitionResource\Schemas;
+namespace App\Filament\Resources\CustomFieldDefinitions\Schemas;
 
 use Filament\Schemas\Schema;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Filament\Resources\CustomFieldDefinition\CustomFieldDefinitionResource\Tables;
+namespace App\Filament\Resources\CustomFieldDefinitions\Tables;
 
 use Filament\Tables\Table;
 use Filament\Tables\Columns\TextColumn;

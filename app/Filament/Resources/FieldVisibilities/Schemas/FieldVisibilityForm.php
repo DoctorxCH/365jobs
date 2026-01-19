@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Filament\Resources\FieldVisibility\FieldVisibilityResource\Schemas;
+namespace App\Filament\Resources\FieldVisibilities\Schemas;
 
 use Filament\Schemas\Schema;
 

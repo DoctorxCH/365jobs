@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Filament\Resources\FieldVisibility\FieldVisibilityResource\Pages;
+namespace App\Filament\Resources\FieldVisibilities\Pages;
 
-use App\Filament\Resources\FieldVisibility\FieldVisibilityResource;
+use App\Filament\Resources\FieldVisibilities\FieldVisibilityResource;
 use Filament\Resources\Pages\CreateRecord;
 
 class CreateFieldVisibility extends CreateRecord
